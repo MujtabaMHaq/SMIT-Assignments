@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Small Nav -->
+
+    <div class="theSmallNav">
+        <header class="smallNavber">
+            <div class="logoRow">
+
+                <div class="motorAndPropertySmall">
+
+
+                    <div class="motorSmall">
+                        <a href=""><i class="fa-solid fa-car"></i></a>
+                    </div>
+                    <div class="motorSmall">
+                        <a href=""><i class="fa-solid fa-building"></i></a>
+                    </div>
+
+
+                </div>
+
+                <div class="olxLogoSmall">
+                    <a href="index.html"><img src="./images/OLX-Logo.png" alt=""></a>
+                </div>
+
+                <div class="loginAndSellSmall">
+
+
+                    <div class="LoginBtnSmall">
+                        <a href="index.html">Login</a>
+                    </div>
+
+                    <div class="sellBtnSmall">
+                        <a href="index.html">
+                            <div class="sellBtnImgSmall">
+                                <img src="./images/sell button.png" alt="">
+                            </div>
+                            <div class="sellTextSmall">
+                                <i class="fa-solid fa-plus"></i> SELL
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+
+        <div class="searchRow">
+            <div class="searchRowDropdown">
+
+                <!-- DropDown ------------------------------------------------------------------- -->
+                <div class="dropdownSpace">
+                    <div class="dropdown">
+                        <button
+                            class="btn btn-secondary dropdown-toggle d-flex gap-1 justify-content-flex-start align-items-center customDropdownHeadStyle"
+                            type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-magnifying-glass"></i>Pakistan</button>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item customDropdownstyle customDropdownHoverstyle p-3" href="#"><i
+                                        class="fa-solid fa-location-crosshairs"></i> Use current
+                                    location</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item p-3 customDropdownHoverstyle" href="#"><i
+                                        class="fa-solid fa-location-dot"></i> See ads in all Pakistan</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item customDropdownHoverstyle" href="#"><i
+                                        class="fa-solid fa-location-dot"></i> Azad Kashmir, Pakistan</a></li>
+                            <li><a class="dropdown-item customDropdownHoverstyle" href="#"><i
+                                        class="fa-solid fa-location-dot"></i> Punjab, Pakistan</a></li>
+                            <li><a class="dropdown-item customDropdownHoverstyle" href="#"><i
+                                        class="fa-solid fa-location-dot"></i> Balochistan, Pakistan</a></li>
+                            <li><a class="dropdown-item customDropdownHoverstyle" href="#"><i
+                                        class="fa-solid fa-location-dot"></i> Sindh, Pakistan</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- DropDown ------------------------------------------------------------------- -->
+
+
+                <div class="searchBar">
+                    <input type="text" class="searchBarEnter" placeholder="Find Cars, Mobile Phones and more">
+                    <button class="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="placeholderSmallNav">
+
+    </div>
+
+    <div class="allCategory">
+        <div class="">
+            <button class="btn dropdown-toggle dropdownBtnSmall" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                All Categories
+            </button>
+            <div class="dropdown-menu dropdownstyleSmall">
+                <div class="dropdownCate">
+                    <a href="">Mobile Phones</a>
+                    <a href="">Cars</a>
+                    <a href="">Motorcycles</a>
+                    <a href="">Houses</a>
+                    <a href="">Video-Audios</a>
+                    <a href="">Tablets</a>
+                    <a href="">Land & Plots</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Small Nav -->
+
+    <!-- Big Nav -->
+
+    <div class="theBigNav">
+        <div class="bigNavContent">
+
+            <div class="bigNavContLeft">
+                <div class="olxLogoBig">
+                    <a href="index.html"><img src="./images/OLX-Logo.png" alt=""></a>
+                </div>
+
+                <div class="motorAndPropertyBig">
+                    <a href="" class="motorbtn">
+                        <div class="motorSmall">
+                            <i class="fa-solid fa-car"></i>
+                        </div>MOTORS
+                    </a>
+                    <a href="" class="motorbtn">
+                        <div class="motorSmall">
+                            <i class="fa-solid fa-building"></i>
+                        </div>PROPERTY
+                    </a>
+                </div>
+            </div>
+
+            <div class="bigNavDropdown">
+                <div class="dropdownSpace">
+                    <div class="dropdown">
+                        <button
+                            class="btn btn-secondary dropdown-toggle d-flex gap-1 justify-content-flex-start align-items-center customDropdownHeadStyle"
+                            type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-magnifying-glass"></i>Pakistan</button>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item customDropdownstyle customDropdownHoverstyle p-3" href="#"><i
+                                        class="fa-solid fa-location-crosshairs"></i> Use current
+                                    location</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item p-3 customDropdownHoverstyle" href="#"><i
+                                        class="fa-solid fa-location-dot"></i> See ads in all Pakistan</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item customDropdownHoverstyle" href="#"><i
+                                        class="fa-solid fa-location-dot"></i> Azad Kashmir, Pakistan</a></li>
+                            <li><a class="dropdown-item customDropdownHoverstyle" href="#"><i
+                                        class="fa-solid fa-location-dot"></i> Punjab, Pakistan</a></li>
+                            <li><a class="dropdown-item customDropdownHoverstyle" href="#"><i
+                                        class="fa-solid fa-location-dot"></i> Balochistan, Pakistan</a></li>
+                            <li><a class="dropdown-item customDropdownHoverstyle" href="#"><i
+                                        class="fa-solid fa-location-dot"></i> Sindh, Pakistan</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="bigNavSearchbar">
+                    <input type="text" class="BigNavSearchEnter" placeholder="Find Cars, Mobile Phones and more">
+                    <button class="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+
+
+                <div class="LoginBtnSmall" style="margin-left: 10px">
+                    <a href="index.html">Login</a>
+                </div>
+
+                <div class="sellBtnSmall" style="margin-left: 10px">
+                    <a href="index.html">
+                        <div class="sellBtnImgSmall">
+                            <img src="./images/sell button.png" alt="">
+                        </div>
+                        <div class="sellTextSmall">
+                            <i class="fa-solid fa-plus"></i> SELL
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="bigNavCategory">
+        <div class="bigNavCateContent">
+            <div class="categoryBigNav">
+
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle dropdownBtn" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        All Categories
+                    </button>
+                    <div class="dropdown-menu dropdownstyle">
+                        <div class="dropdownsections">
+                            <div class="allcateSec1">
+                                <a href="index.html" class="fw-bold">Mobiles</a>
+                                <a href="index.html">Mobile Phones</a>
+                                <a href="index.html">Accessories</a>
+                                <a href="index.html">Smart Watches</a>
+                                <a href="index.html">Tablets</a>
+                                <br>
+                                <a href="index.html" class="fw-bold">Vehicles</a>
+                                <a href="index.html">Cars</a>
+                                <a href="index.html">Cars Accessories</a>
+                                <a href="index.html">Spare Parts</a>
+                                <a href="index.html">Buses, Vans & Trucks</a>
+                                <a href="index.html">Rickshaw & Chingchi</a>
+                                <a href="index.html">Tractors & Trailers</a>
+                                <a href="index.html">Cars on Installments</a>
+                                <a href="index.html">Other Vehicles</a>
+                                <a href="index.html">Boats</a>
+                                <br>
+                                <a href="index.html" class="fw-bold">Property for Sale</a>
+                                <a href="index.html">Land & Plots</a>
+                                <a href="index.html">Houses</a>
+                                <a href="index.html">Apartments & Flats</a>
+                                <a href="index.html">Shops - Offices - Commercial Space</a>
+                                <a href="index.html">Portions & Floors</a>
+                                <br>
+                                <a href="index.html" class="fw-bold">Property for Rent</a>
+                                <a href="index.html">Portions & Floors</a>
+                                <a href="index.html">Houses</a>
+                                <a href="index.html">Apartments & Flats</a>
+                                <a href="index.html">Shops - Offices - Commercial Space</a>
+                                <a href="index.html">Rooms</a>
+                                <a href="index.html">Roommates & Paying Guests</a>
+                                <a href="index.html">Vacation Rentals - Guest Houses</a>
+                                <a href="index.html">Land & Plots</a>
+                                <br>
+                                <a href="index.html" class="fw-bold">Electronics & Home Appliances</a>
+                                <a href="index.html">Computers & Accessories</a>
+                                <a href="index.html">Televisions & Accessories</a>
+                                <a href="index.html">Other Home Appliances</a>
+                                <a href="index.html">Cameras & Accessories</a>
+                                <a href="index.html">Video-Audios</a>
+                                <a href="index.html">Generators, UPS & Power Solutions</a>
+                                <a href="index.html">Games & Entertainment</a>
+                                <a href="index.html">Kitchen Appliances</a>
+                                <a href="index.html">Refrigerators & Freezers</a>
+                                <a href="index.html">AC & Coolers</a>
+                                <a href="index.html">Heaters & Geysers</a>
+                                <a href="index.html">Washing Machines & Dryers</a>
+                                <a href="index.html">Fans</a>
+                                <a href="index.html">Microwaves & Ovens</a>
+                                <a href="index.html">Sewing Machines</a>
+                                <a href="index.html">Irons & Steamers</a>
+                                <a href="index.html">Water Dispensers</a>
+                                <a href="index.html">Air Purifiers & Humidifiers</a>
+                            </div>
+                            <div class="allcateSec1">
+                                <a href="index.html" class="fw-bold">Bikes</a>
+                                <a href="index.html">Motorcycles</a>
+                                <a href="index.html">Bicycles</a>
+                                <a href="index.html">Spare Parts</a>
+                                <a href="index.html">Bikes Accessories</a>
+                                <a href="index.html">Scooters</a>
+                                <a href="index.html">ATV & Quads</a>
+                                <br>
+                                <a href="index.html" class="fw-bold">Business, Industrial & Agriculture</a>
+                                <a href="index.html">Other Business & Industry</a>
+                                <a href="index.html">Food & Restaurants</a>
+                                <a href="index.html">Trade & Industrial Machinery</a>
+                                <a href="index.html">Medical & Pharma</a>
+                                <a href="index.html">Construction & Heavy Machinery</a>
+                                <a href="index.html">Business for Sale</a>
+                                <a href="index.html">Agriculture</a>
+                                <br>
+                                <a href="index.html" class="fw-bold">Services</a>
+                                <a href="index.html">Other Services</a>
+                                <a href="index.html">Tuitions & Academies</a>
+                                <a href="index.html">Domestic Help</a>
+                                <a href="index.html">Car Rental</a>
+                                <a href="index.html">Web Development</a>
+                                <a href="index.html">Home & Office Repair</a>
+                                <a href="index.html">Travel & Visa</a>
+                                <a href="index.html">Event Services</a>
+                                <a href="index.html">Electronics & Computer Repair</a>
+                                <a href="index.html">Video & Photography</a>
+                                <a href="index.html">Movers & Packers</a>
+                                <a href="index.html">Drivers & Taxi</a>
+                                <a href="index.html">Construction Services</a>
+                                <a href="index.html">Farm & Fresh Food</a>
+                                <a href="index.html">Consultancy Services</a>
+                                <a href="index.html">Health & Beauty</a>
+                                <a href="index.html">Architecture & Interior Design</a>
+                                <a href="index.html">Catering & Restaurant</a>
+                                <a href="index.html">Renting Services</a>
+                                <a href="index.html">Car Services</a>
+                                <a href="index.html">Camera Installation</a>
+                                <a href="index.html">Tailor Services</a>
+                                <a href="index.html">Insurance Services</a>
+                            </div>
+                            <div class="allcateSec1">
+                                <a href="index.html" class="fw-bold">Jobs</a>
+                                <a href="index.html">Other Jobs</a>
+                                <a href="index.html">Online</a>
+                                <a href="index.html">Content Writing</a>
+                                <a href="index.html">Education</a>
+                                <a href="index.html">Part Time</a>
+                                <a href="index.html">Sales</a>
+                                <a href="index.html">Customer Service</a>
+                                <a href="index.html">Marketing</a>
+                                <a href="index.html">Restaurants & Hospitality</a>
+                                <a href="index.html">Domestic Staff</a>
+                                <a href="index.html">Medical</a>
+                                <a href="index.html">IT & Networking</a>
+                                <a href="index.html">Accounting & Finance</a>
+                                <a href="index.html">Graphic Design</a>
+                                <a href="index.html">Delivery Riders</a>
+                                <a href="index.html">Hotels & Tourism</a>
+                                <a href="index.html">Clerical & Administration</a>
+                                <a href="index.html">Manufacturing</a>
+                                <a href="index.html">Real Estate</a>
+                                <a href="index.html">Engineering</a>
+                                <a href="index.html">Human Resources</a>
+                                <a href="index.html">Security</a>
+                                <a href="index.html">Advertising & PR</a>
+                                <a href="index.html">Internships</a>
+                                <a href="index.html">Architecture & Interior Design</a>
+                                <br>
+                                <a href="index.html" class="fw-bold">Animals</a>
+                                <a href="index.html">Hens</a>
+                                <a href="index.html">Parrots</a>
+                                <a href="index.html">Cats</a>
+                                <a href="index.html">Dogs</a>
+                                <a href="index.html">Pet Food & Accessories</a>
+                                <a href="index.html">Pigeons</a>
+                                <a href="index.html">Livestock</a>
+                                <a href="index.html">Other Birds</a>
+                                <a href="index.html">Finches</a>
+                                <a href="index.html">Fish</a>
+                                <a href="index.html">Rabbits</a>
+                                <a href="index.html">Fertile Eggs</a>
+                                <a href="index.html">Doves</a>
+                                <a href="index.html">Ducks</a>
+                                <a href="index.html">Peacocks</a>
+                                <a href="index.html">Other Animals</a>
+                                <a href="index.html">Horses</a>
+                            </div>
+                            <div class="allcateSec1">
+                                <a href="index.html" class="fw-bold">Furniture & Home Decor</a>
+                                <a href="index.html">Sofa & Chairs</a>
+                                <a href="index.html">Beds & Wardrobes</a>
+                                <a href="index.html">Other Household Items</a>
+                                <a href="index.html">Home Decoration</a>
+                                <a href="index.html">Tables & Dining</a>
+                                <a href="index.html">Office Furniture</a>
+                                <a href="index.html">Garden & Outdoor</a>
+                                <a href="index.html">Painting & Mirrors</a>
+                                <a href="index.html">Curtains & Blinds</a>
+                                <a href="index.html">Rugs & Carpets</a>
+                                <a href="index.html">Bathroom Accessories</a>
+                                <br>
+                                <a href="index.html" class="fw-bold">Fashion & Beauty</a>
+                                <a href="index.html">Clothes</a>
+                                <a href="index.html">Wedding</a>
+                                <a href="index.html">Watches</a>
+                                <a href="index.html">Footwear</a>
+                                <a href="index.html">Skin & Hair</a>
+                                <a href="index.html">Jewellery</a>
+                                <a href="index.html">Bags</a>
+                                <a href="index.html">Makeup</a>
+                                <a href="index.html">Fragrance</a>
+                                <a href="index.html">Fashion Accessories</a>
+                                <a href="index.html">Other Fashion</a>
+                                <br>
+                                <a href="index.html" class="fw-bold">Books, Sports & Hobbies</a>
+                                <a href="index.html">Other Hobbies</a>
+                                <a href="index.html">Gym & Fitness</a>
+                                <a href="index.html">Sports Equipment</a>
+                                <a href="index.html">Books & Magazines</a>
+                                <a href="index.html">Musical Instruments</a>
+                                <br>
+                                <a href="index.html" class="fw-bold">Kids</a>
+                                <a href="index.html">Toys</a>
+                                <a href="index.html">Kids Vehicles</a>
+                                <a href="index.html">Kids Accessories</a>
+                                <a href="index.html">Kids Furniture</a>
+                                <a href="index.html">Baby Gear</a>
+                                <a href="index.html">Swings & Slides</a>
+                                <a href="index.html">Kids Clothing</a>
+                                <a href="index.html">Bath & Diapers</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="bigNavCategoryDivs">
+                <a href="">Mobile Phones</a>
+                <a href="">Cars</a>
+                <a href="">Motorcycles</a>
+                <a href="">Houses</a>
+                <a href="">Video-Audios</a>
+                <a href="">Tablets</a>
+                <a href="">Land & Plots</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Big Nav -->
+
+    <div class="folders">
+        <div class="foldersContent">
+            <p><a href="index.html">Home</a> /
+                <a href="index.html">Mobile Phones</a> /
+                <a href="index.html">Mobile Phones in Punjab</a> /
+                <a href="index.html">Mobile Phones in Faisalabad</a> /
+                <a href="index.html">Mobile Phones in Jaranwala</a> /
+                <a href="index.html">Samsung Mobile in Jaranwala</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="prodCarouselAndSeller">
+        <div class="prodCarouselAndSellerContent">
+            <div class="prodCarousel">
+
+                <!-- Carousel -->
+
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./product page images/carousel 1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./product page images/carousel 2.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <!-- Carousel -->
+
+            </div>
+
+            <div class="sellerDetails">
+                <div class="sellerCard">
+                    <div class="sellerCardContent">
+                        <div class="nameAndProf">
+
+                            <div class="sellerImg">
+                                <img src="./product page images/abdul hadi.png" alt="">
+                            </div>
+                            <div class="sellerDetails">
+                                <p class="sellerName">Abdul Hadi</p>
+                                <p class="sellerTime">Member since Jan 2021</p>
+                                <a href="" class="sellerProf">
+                                    <p>See profile <i class="fa-solid fa-chevron-right"></i></p>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="callSeller">
+                            <button class="callbtn"><i class="fa-solid fa-phone"></i> Show phone number</button>
+                        </div>
+                        <div class="chatSeller">
+                            <button class="chatbtn"><i class="fa-solid fa-comments"></i></i> Chat</button>
+                        </div>
+                        <div class="sellerLocation">
+                            <h1>Location</h1>
+                            <p><i class="fa-solid fa-location-dot"></i> Jaranwala, Faisalabad</p>
+                        </div>
+                        <div class="adnumber">
+                            <div class="adnum">
+                                AD ID 1083591511
+                            </div>
+                            <div class="reportAd">
+                                <a href=""><i class="fa-regular fa-flag"></i> Report this ad</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="remainingDetail">
+        <div class="remainingDetailContent">
+            <div class="remainingDetailContentDiv">
+                <div class="priceTitle boxouter">
+                    <div class="price">
+                        <div>
+                            <p>Rs 55,499</p>
+                        </div>
+                        <div><i class="fa-solid fa-share-nodes share"></i> <i class="fa-solid fa-heart heart"></i></div>
+                    </div>
+                    <div class="title">
+                        <p>samsung note9 6/128gb dual sim official pta approved 9/10 condition</p>
+                    </div>
+                    <div class="locationDetails">
+                        <p><i class="fa-solid fa-location-dot"></i> Jaranwala, Faisalabad</p>
+                    </div>
+                </div>
+                <div class="details boxouter">
+                    <div class="detailsHeading">
+                        <p>Details</p>
+                    </div>
+                    <div class="detailsContent row">
+                        <div class="col-sm-3 col-6">
+                            <p>Is Deliverable</p>
+                            <p>Price</p>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <p class="fw-bold">No</p>
+                            <p class="fw-bold">55,499</p>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <p>Brand</p>
+                            <p>Condition</p>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <p class="fw-bold">Samsung Mobile</p>
+                            <p class="fw-bold">Used</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="description boxouter">
+                    <div class="detailsHeading">
+                        <p>Description</p>
+                    </div>
+                    <div class="descriptionDetails">
+                        <p>samsung note9 <br>
+                            official pta approved<br>
+                            dual sim<br>
+                            9/10 condition<br>
+                            box and orignal charger<br>
+                            shop no 14 dragon mall ground floor mobile hut opposite shaukat fabrics harrianwala chowk
+                            faisalabad</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cardsSec">
+        <div class="cardsSecContent">
+            <div class="cardsSecRow">
+                <div class="cardsSecRowHead">
+                    <p>Related Ads</p>
+                    <a href="index.html">View more <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                <div class="cardsSecRowCards row">
+
+                    <!-- Card 1 -->
+
+                    <div class="cardBoxCol col-lg-3 col-sm-6 col-6">
+                        <div class="cardBox">
+                            <a href="Product.html">
+                                <div class="cardBoxImg">
+                                    <img src="./Product images/samsung note9 6_128gb dual sim official pta approved 9_10 condition.png"
+                                        alt="">
+                                </div>
+                                <div class="cardBoxDetails">
+                                    <div class="cardBoxPrice">
+                                        Rs 55,499<i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="cardBoxProduct">
+                                        <p>samsung note 9 6/128gb dual sim official pta approved 9/10 condition</p>
+                                    </div>
+                                    <div class="cardBoxLocation">
+                                        Jaranwala, Faisalabad
+                                    </div>
+                                    <div class="cardBoxDate">
+                                        1 days ago
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+
+
+                    <div class="cardBoxCol col-lg-3 col-sm-6 col-6">
+                        <div class="cardBox">
+                            <a href="index.html">
+                                <div class="cardBoxImg">
+                                    <img src="./Product images/SAMSUNG GALAXY A24 8GB BOX PACK PTA APPROVE A54 A34 A14 A04 A04s A14.png"
+                                        alt="">
+                                </div>
+                                <div class="cardBoxDetails">
+                                    <div class="cardBoxPrice">
+                                        Rs 58,000<i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="cardBoxProduct">
+                                        <p>Samsung galaxy a24 8gb box pack pta approve a54 a34 a14...</p>
+                                    </div>
+                                    <div class="cardBoxLocation">
+                                        Allama iqbal Town, Lahore
+                                    </div>
+                                    <div class="cardBoxDate">
+                                        3 weeks ago
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+
+
+                    <div class="cardBoxCol col-lg-3 col-sm-6 col-6">
+                        <div class="cardBox">
+                            <a href="index.html">
+                                <div class="cardBoxImg">
+                                    <img src="./Product images/one plus 9pro 10 pro 9r simple 9  8t     7pro macleran color  oppo f15.png"
+                                        alt="">
+                                </div>
+                                <div class="cardBoxDetails">
+                                    <div class="cardBoxPrice">
+                                        Rs 95,000<i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="cardBoxProduct">
+                                        <p>one plus 9pro 10 pro 9r simple 9 8t 7 pro macleran color oppo f15</p>
+                                    </div>
+                                    <div class="cardBoxLocation">
+                                        Hall Road, Lahore
+                                    </div>
+                                    <div class="cardBoxDate">
+                                        2 days ago
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+
+                    <div class="cardBoxCol col-lg-3 col-sm-6 col-6">
+                        <div class="cardBox">
+                            <a href="index.html">
+                                <div class="cardBoxImg">
+                                    <img src="./Product images/Oneplus 8 8gb 128gb global dual sim brandnew stock.png"
+                                        alt="">
+                                </div>
+                                <div class="cardBoxDetails">
+                                    <div class="cardBoxPrice">
+                                        Rs 65,999<i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="cardBoxProduct">
+                                        <p>Oneplus 8 8gb 128gb global dual sim brandnew stock</p>
+                                    </div>
+                                    <div class="cardBoxLocation">
+                                        Johar Town, Lahore
+                                    </div>
+                                    <div class="cardBoxDate">
+                                        3 days ago
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Roq 1 -->
+    <!-- Footer -->
+    <footer class="footMain">
+        <div>
+            <footer class="footContent">
+                <div class="list">
+                    <h3>POPULAR CATEGORIES</h3>
+                    <a href="#">Cars</a>
+                    <a href="#">Flats for rent</a>
+                    <a href="#">Mobile Phones</a>
+                    <a href="#">Jobs</a>
+                </div>
+                <div class="list">
+                    <h3>TRENDING SEARCHES</h3>
+                    <a href="#">Bikes</a>
+                    <a href="#">Watches</a>
+                    <a href="#">Books</a>
+                    <a href="#">Dogs</a>
+                </div>
+                <div class="list">
+                    <h3>ABOUT US</h3>
+                    <a href="#">About Dubizzle Group</a>
+                    <a href="#">OLX Blog</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">OLX for Businesses</a>
+                </div>
+                <div class="list">
+                    <h3>OLX</h3>
+                    <a href="#">Help</a>
+                    <a href="#">Sitemap</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div>
+                    <div class="listFollow">
+                        <h3>FOLLOW US</h3>
+                        <img src="./images/Twitter.svg" alt="Twitter Logo"> <img src="./images/Facebook.svg"
+                            alt="Facebook Logo"> <img src="./images/Youtube.svg" alt="Youtube Logo"> <img
+                            src="./images/Instagram.svg" alt="Instagram Logo">
+                    </div>
+                    <div class="Store">
+                        <div class="img1"><img src="./images/GooglePlayEN.svg" alt="Google Play Store"
+                                style="width:84px;height:28px;"></div>
+                        <div class="img2"><img src="./images/AppStoreEN.svg" alt="Apple App Store"
+                                style="width:84px;height:28px;"></div>
+                        <div class="img3"><img src="./images/AppGallery.svg" alt="Huawei App Gallery"
+                                style="width:84px;height:28px;"></div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </footer>
+    <footerEnd class="classified">
+        <div>
+            <span>Free Classifieds in Pakistan</span> . © 2006-2024 OLX
+        </div>
+    </footerEnd>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+
+</html>

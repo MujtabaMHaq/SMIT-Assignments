@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    height: 190px;
+    width: auto;
+    background-color: burlywood;
+}
+
+.heroimage{
+    height: 190px;
+    width: auto;
+    background-image: url(./Images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: flex;
+    justify-content: center;
+}
+
+.herocontent{
+    height: 190px;
+    width: 850px;
+}
+
+.saylanilogo{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.socialsandstuff{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.socials{
+    padding-top: 7px;
+}
+
+.studentportalbtn{
+    width: 150px;
+    color: #0D6DB7;
+    background-color: rgba(0, 0, 0, 0);
+    border: #0D6DB7 solid 1.5px;
+    border-radius: 50px;
+}
+
+.studentportalbtn:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.ser{
+    text-align: center;
+    font-size: small;
+    color: #414141;
+    padding-top: 10px;
+}
+
+.socials img:hover{
+    cursor: pointer;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+.pages{
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+    /* background-color: #8DC63F; */
+    border-bottom: #b8b8b8 solid 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.pages a{
+    text-decoration: none;
+}
+
+.pagebox{
+    width: 130px;
+    height: 50px;
+    /* background-color: antiquewhite; */
+    margin: 0 10px;
+    font-size: small;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 18px;
+    border-radius: 10px 10px 0 0 ;
+    /* border: 1px solid rgb(112, 112, 112);
+    border-bottom: 0; */
+    font-weight: bold;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+.regform{
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    /* background-color: lightgreen; */
+}
+
+.upperinputs{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.leftinputs{
+    width: 46%;
+    height: auto;
+    /* background-color: lightpink; */
+    box-sizing: border-box;
+}
+
+.rightinputs{
+    width: 46%;
+    height: auto;
+    /* background-color: lightpink; */
+    box-sizing: border-box;
+}
+
+.bottominputs{
+    width: 95%;
+    height: auto;
+    /* background-color: lightsteelblue; */
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+/* Photo add -------------------------------------------------------------------------------------------------- */
+
+.customPhoto{
+    display: block;
+    width: 90px;
+    height: 90px;
+    background-color: #FAFAFA;
+    color: #272727;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 37px;
+    font-size: small;
+    border-radius: 10px;
+    border: #414141 dotted 2px;
+}
+
+.customPhoto:hover{
+    cursor: pointer;
+}
+
+.customPhoto:hover{
+    border: #0066B3 dotted 2px;
+}
+
+.addPhoto{
+    display: none;
+}
+
+.needPhoto{
+    padding-top: 5px;
+    display: inline-block;
+}
+
+.photoguidelines{
+    padding-top: 5px;
+    font-size: 12px;
+    color: #262626;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+/* Fourm Guidelines */
+
+
+.formGuidelines{
+    padding-top: 25px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    /* background-color: chartreuse; */
+    box-sizing: border-box;
+    font-size: small;
+    color: #262626;
+    padding-bottom: 25px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.submitbtn{
+    width: 100%;
+    height: 50px;
+    background-color: #0D6DB7;
+    text-transform: capitalize;
+    color: white;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 25px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.inputlabel{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #0066B3;
+    padding-top: 10px;
+}
+
+.inputfield{
+    width: 100%;
+    height: 50px;
+    border: #8DC63F solid 1px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px 10px;;
+}
+

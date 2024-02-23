@@ -1,0 +1,1021 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.theSmallNav{
+display: none;
+
+
+    z-index: 4000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.smallNavber{
+    display: flex;
+    justify-content: center;
+    
+    background-color: #F7F8F8;
+}
+
+.logoRow{
+
+    padding-top: 7px;
+width: 95%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.motorAndPropertySmall{
+    display: flex;
+    gap: 10px;
+}
+
+.motorSmall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: lightgray;
+}
+
+.motorSmall a:hover{
+    color: #3A77FF;
+}
+
+.olxLogoSmall img{
+    height: 30px;
+}
+
+.loginAndSellSmall{
+    display: flex;
+
+    align-items: center;
+    gap: 10px;
+}
+
+.LoginBtnSmall{
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.LoginBtnSmall:hover{
+    text-decoration: underline 2px;
+}
+
+.sellBtnImgSmall img{
+    margin-top: 3px;
+    height: 37px;
+}
+
+.sellBtnSmall{
+    position: relative;
+}
+
+.sellTextSmall{
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+/* DropDown */
+
+.customDropdownstyle{
+    font-weight: bold;
+    color: #3A77FF; }
+
+.customDropdownHoverstyle{
+    color: black;
+}
+
+.customDropdownHoverstyle:hover{
+    background-color: #C8F8F6;
+    color: black;
+}
+
+.customDropdownHeadStyle{
+    background-color: white;
+    color: black;
+    width: 100%;
+    border: 2px solid #012F34;
+    border-radius: 4px;
+
+    
+
+    font-size: 15px;
+}
+
+.customDropdownHeadStyle:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.placeholderSmallNav{
+    display: none;
+    width: 100px;
+    height: 106px;
+}
+
+/* DropDown */
+
+/* Search Row */
+
+
+
+.dropdownSpace{
+    /* width: 25%; */
+    display: flex;
+}
+
+.searchRow{
+
+    z-index: 1000;
+    width: 100%;
+    background-color: #F7F8F8;
+
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.searchRowDropdown{
+    width: 95%;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.searchBar{
+    width: 100%;
+
+    display: flex;
+}
+
+.searchBarEnter{
+    height: 100%;
+    width: 100%;
+    padding: 5px 15px;
+
+    border: 2px solid #012F34;
+    border-radius: 4px 0 0 4px;
+}
+
+.searchBtn{
+    background-color: #012F34;
+    color: white;
+    padding: 0px 13px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+}
+
+/* All category */
+
+.allCategory{
+    
+        width: 100%;
+
+    
+        display: none;
+        justify-content: center;
+        
+    }
+
+    .allCateContent{
+        width: 95%;
+        padding: 10px 0;
+    }
+
+.dropdownstyleSmall{
+        width: 100%;
+}
+
+.dropdownBtnSmall{
+    background-color: white;
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+
+    box-shadow: 0 1px 5px lightgray;
+}
+
+.dropdownCate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}
+
+.dropdownCate a:hover{
+    color: #3A77FF;
+}
+
+
+/* 
+
+
+
+/* Dropdown nav bar small */
+
+/* .header{
+    width: 95%;
+    display: none;
+}
+
+.link{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: black;
+    width: 100%;
+
+
+    padding: 10px 0;
+}
+
+.dropdown{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdownMenu{
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: calc( 100% + 0px);
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+
+    pointer-events: none;
+    opacity: 0;
+}
+
+.dropdownMenu a{
+    padding: 5px;
+    color: #012F34;
+    background-color: #F7F8F8;
+}
+
+.dropdownMenu a:hover{
+    color: #3A77FF;
+}
+
+.dropdown > .link:focus + .dropdownMenu{
+    opacity: 1;
+    pointer-events: all;
+} */
+
+/* Dropdown nav bar small */
+
+/* Big Nav bar */
+
+.theBigNav{
+
+    width: 100%;
+    background-color: #F7F8F8;
+
+    display: flex;
+    justify-content: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 3000;
+}
+
+.bigNavContent{
+    width: 95%;
+    background-color: #F7F8F8;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 10px 0;
+}
+
+.categoryBigNav{
+    background-color: white;
+}
+
+.categoryBigNav:focus{
+    border: none;
+}
+
+.bigNavContLeft{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.motorAndPropertyBig{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.motorbtn{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    gap: 5px;
+}
+
+.motorbtn:hover{
+    color: #3A77FF;
+}
+
+.motorbtn i{
+    font-size: 17px;
+}
+
+.olxLogoBig img{
+    height: 30px;
+}
+
+.bigNavDropdown{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.bigNavSearchbar{
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.BigNavSearchEnter{
+
+    /* height: 100%; */
+    width: 100%;
+    padding: 5px 15px;
+
+    border: 2px solid #012F34;
+    border-radius: 4px 0 0 4px;
+}
+
+.bigNavCategory{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+    
+    box-shadow: 0 1px 5px lightgray;
+}
+
+.bigNavCateContent{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dropdownBtn{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.dropdownstyle{
+    width: calc(100% + 450%);
+}
+
+.dropdownsections{
+    display: flex;
+}
+
+.allcateSec1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    font-size: 13px;
+    width: 25%;
+}
+
+.allcateSec1 a:hover{
+    color: #3A77FF;
+}
+
+.bigNavCategoryDivs{
+    display: flex;
+    gap: 15px;
+    font-size: 13px;
+}
+
+.bigNavCategoryDivs a:hover{
+    color: #3A77FF;
+}
+
+
+
+/* Big Nav bar */
+
+
+/* Carousel */
+
+.carouselSec{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 30px 0;
+}
+
+.carouselSecContent{
+    width: 95%;
+}
+
+/* Carousel */
+
+
+/* All Categories Images */
+
+.allCategoryImgSec{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.allCategoryImgSecContent{
+    width: 95%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.allCateImgBox{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.allCateImgBoxImg{
+
+    height: 100px;
+}
+
+.allCateImgBoxImg img{
+    height: 100%;
+}
+
+.allCateImgBoxHead{
+    width: 100%;
+
+    margin-top: 10px;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    word-wrap: break-word;
+}
+
+.allCateImgBoxHead:hover{
+    color: #3A77FF;
+}
+
+/* All Categories Images */
+
+/* Cards */
+
+.cardsSec{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.cardsSecContent{
+    width: 95%;
+
+
+}
+
+.cardsSecRowHead{
+    width: 100%;
+
+
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardsSecRowHead a{
+    font-size: 17px;
+    color: #3A77FF;
+}
+
+.cardsSecRowHead a:hover{
+    text-decoration: underline 2px;
+}
+
+
+.cardBox{
+    width: 90%;
+    margin: 0 auto;
+
+    border: 1px solid #CCD5D6;
+
+    border-radius: 10px;
+
+    margin-bottom: 15px;
+}
+
+.cardBoxImg img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.cardBoxDetails{
+    padding: 10px 15px;
+}
+
+.cardBoxPrice{
+    display: flex;
+    justify-content: space-between;
+
+
+    font-weight: bold;
+    color: #3A77FF;
+    font-size: 15px;
+
+}
+
+.cardBoxPrice i{
+    font-size: 20px;
+    color: lightgray;
+}
+
+.cardBoxPrice i:hover{
+    color: rgb(255, 73, 73);
+    cursor: pointer;
+}
+
+.cardBoxProduct{
+    font-size: 16px;
+}
+
+.cardBoxLocation{
+    font-size: 13px;
+}
+
+.cardBoxDate{
+    font-size: 13px;
+
+}
+
+.cardBox:hover{
+    scale: 1.03;
+}
+
+
+/* Cards */
+
+/* Folders */
+
+/* Folders */
+.folders{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.foldersContent{
+    width: 95%;
+
+    display: flex;
+    align-items: center;
+
+    padding: 20px 0; 
+}
+
+.foldersContent p{
+    font-size: 13px;
+
+    margin: 0;
+}
+
+.foldersContent a{
+    color: #5F7D80;
+}
+
+.foldersContent a:hover{
+    color: #002F34;
+}
+
+/* Folders */
+
+/* Carousel */
+
+.prodCarouselAndSeller{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.prodCarouselAndSellerContent{
+    width: 95%;
+
+    display: flex;
+    margin-top: 30px;
+}
+
+.prodCarousel{
+    width: 60%;
+
+}
+
+.sellerDetails{
+    width: 40%;
+}
+
+.sellerCard{
+    width: 100%;
+    padding: 10px;
+
+}
+
+.sellerCardContent{
+    padding: 10px;
+    border-radius: 10px;
+
+    border: 1px solid #CCD5D6;
+}
+
+.nameAndProf{
+    display: flex;
+    gap: 10px;
+}
+
+.sellerImg{
+    height: 80px;
+}
+
+.sellerImg img{
+    height: 100%;
+}
+
+
+
+.sellerDetails p{
+    margin: 0;
+    padding-bottom: 7px;
+}
+
+.sellerName{
+    font-weight: bold;
+    font-size: 17px;
+    color: #002F34;
+}
+
+.sellerTime{
+    font-size: 13px;
+    color: #002F34;
+}
+
+.sellerProf{
+    font-size: 13px;
+    font-weight: bold;
+    color: #002F34;
+}
+
+.callbtn{
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: #002F34;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.chatbtn{
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border: 2px solid #002F34;
+    border-radius: 7px;
+
+    background-color: white;
+    color: #002F34;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.chatbtn:hover{
+    border: 3px solid #002F34;
+}
+
+.sellerLocation{
+    margin-top: 10px;
+}
+
+.sellerLocation h1{
+    font-size: 23px;
+    font-weight: bold;
+    color: #002F34;
+}
+
+.sellerLocation p{
+    color: #002F34;
+}
+
+.adnumber{
+    padding: 8px 0;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adnum{
+    padding: 5px 10px;
+    background-color: #ebebeb;
+    border-radius: 50px;
+}
+
+.adnumber a{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.adnumber a:hover{
+    text-decoration: underline 2px;
+}
+
+/* Carousel */
+
+/* remaining details */
+
+.remainingDetail{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    color: #002F34;
+}
+
+.remainingDetailContent{
+    width: 95%;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.remainingDetailContentDiv{
+    width: 60%;
+}
+
+
+.boxouter{
+    border: 1px solid #CCD5D6;
+
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+
+.price p{
+    margin: 0;
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.price i{
+    font-size: 20px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.share:hover{
+    color: #3A77FF;
+    cursor: pointer;
+
+}
+
+.heart:hover{
+    color: rgb(255, 73, 73);
+    cursor: pointer;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.detailsHeading p{
+    margin: 0;
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.detailsContent{
+    margin-top: 10px;
+}
+
+.detailsContent p{
+    font-size: 15px;
+}
+
+.descriptionDetails{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* remaining details */
+
+/* Footer */
+
+.footMain {
+    padding: 1.6rem 15%;
+    width: 100%;
+    background-color: #EBEEEF;
+    justify-content: center;
+}
+
+
+.footMain h3 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #002f34;
+}
+.footContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footMain .footContent .list {
+    display: flex;
+    flex-direction: column;
+    
+ } 
+
+ .listfollow {
+    flex-direction: row;
+    height: 15px;
+    width: 15px;
+
+ }
+ 
+ .store {
+    display: flex;
+    width: 100%;
+ }
+.img1 {
+    display: flex;
+    width: 30%;
+}
+.img2 {
+    display: flex;
+    width: 30%;
+}
+.img3 {
+    display: flex;
+    width: 30%;
+}
+
+.classified {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding: 20px 15%;
+    color: #ffffff;
+    background-color: #002f34;
+    font-size: 12px;
+    text-align: right;
+    font-weight: 700;
+}
+
+.footMain .footContent a {
+    color: rgba(0,47,52,.64);
+    text-decoration: none;
+    font-size: smaller;
+  }
+
+.footMain .footContent a:hover {
+    color: #222;
+  }
+
+
+
+
+
+
+
+/* Media Query */
+
+@media ( width < 768px) {
+    .theSmallNav{
+        display: block;
+        position: fixed;
+    }
+
+    .placeholderSmallNav{
+        display: block;
+    }
+
+    .allCategory{
+        display: contents;
+    }
+
+    .header{
+        display: contents;
+    }
+
+    .theBigNav{
+        display: none;
+    }
+
+    .bigNavCategory{
+        display: none;
+    }
+
+    .carouselSec{
+        padding: 15px 0;
+    }
+
+    .allCateImgBoxImg{
+        height: 70px;
+    }
+
+    .allCateImgBoxHead{
+        display: none;
+    }
+
+    .allCateImgBox{
+        width: 90px;
+    }
+
+    .prodCarouselAndSellerContent{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .prodCarousel{
+        width: 100%;
+    }
+
+    .sellerDetails{
+        width: 100%;
+    }
+
+    .remainingDetailContentDiv{
+        width: 100%;
+    }
+}

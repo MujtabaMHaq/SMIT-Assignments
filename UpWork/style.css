@@ -1,0 +1,1051 @@
+/* #14A800 Green color */
+/* #D5E0D5 Light Gray */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+* a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Nav Bar */
+
+.chatimg{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 1000;
+}
+
+.chatimg img{
+    height: 90px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+}
+
+
+
+.smallNavBar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #fafafa;
+    align-items: center;
+    padding: 0 30px;
+    display: none;
+}
+
+.smallNavBar i:hover{
+    color: #14A800;
+}
+
+
+
+
+
+
+
+.navbar1{
+    width: 100%;
+    border-bottom: #D5E0D5 solid 1px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navbar{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarLogoSide{
+    display: flex;
+}
+
+.navbarLogoSide{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo, .logo img{
+    height: 25px;
+}
+
+
+.navbarDropdownLinks{
+    display: flex;
+}
+
+.navbarDropdownLinks{
+    font-size: 13px;
+    font-weight: bold;
+    gap: 20px;
+}
+
+.navbarDropdownLinks a:hover{
+    color: #14A800;
+}
+
+.navbarSearchSide{
+    display: flex;
+    align-items: center;
+}
+
+.searchbar{
+    display: flex;
+    height: 40px;
+    background-color: white;
+    align-items: center;
+    gap: 15px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    font-size: 13px;
+    border-radius: 100px;
+    border: 1px solid #D5E0D5;
+}
+
+.searchbar input{
+    margin-left: 10px;
+    height: 30px;
+    padding: 7px;
+    border: 1px solid white;
+}
+
+.searchbar form:hover{
+    cursor: text;
+}
+
+.searchbar p:hover{
+    cursor: pointer;
+}
+
+.searchbar input::placeholder{
+    color: black;
+}
+
+.loginSignup{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 80px;
+    background-color: #14A800;
+    color: white;
+    border-radius: 100px;
+}
+
+.navbar2{
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.navbar2Content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.navbar2Links{
+    margin: 20px 0;
+}
+
+.navbar2Links a:hover{
+    color: #14A800;
+    text-decoration: underline #14A800 2px;
+}
+
+/* Nav Bar */
+
+/* Main */
+
+.section1{
+    width: 100%;
+}
+
+.section1div{
+    width: 95%;
+    margin: 0 auto;
+    padding: 30px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1Content{
+    width: 50%;  
+}
+
+.section1Content h1{
+    font-size: 70px;
+    color: #14A800;
+}
+.section1Content p{
+    margin-top: 20px;
+    font-size: 25px;
+    color: #5E6D55;
+    font-weight: normal;
+}
+
+.section1Img{
+    width: 40%;
+}
+
+.section1Img img{
+    width: 100%;
+}
+
+.getStartedBtn{
+    background-color: #14A800;
+    width: 135px;
+    height: 37px;
+    border-radius: 100px;
+    color: white;
+    margin-top: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trustedBy{
+    margin-top: 30px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 30px;
+    color: #9AAA97;
+}
+
+.trustedByLogos{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 30px;
+}
+
+.microsoft img{
+    height: 60px;
+}
+
+.airbnb img{
+    height: 25px;
+}
+
+.bessill img{
+    height: 40px;
+}
+
+
+/* Section 2 */
+
+.section2{
+    width: 100%;
+}
+
+.section2Content{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.gif img{
+    width: 100%;
+}
+
+.section2Content h1{
+    font-size: 40px;
+}
+
+.sec2card{
+    display: flex;
+    
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.sec2cardText p{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #242424;
+}
+
+.sec2cardIcon{
+    height: 50px;
+    width: 40px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.sec2card i{
+    font-size: 25px;
+}
+
+.sec2btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    margin-top: 30px;
+}
+
+.SignUpForFree{
+    padding: 10px 20px;
+    border-radius: 100px;
+    background-color: #14A800;
+    color: white;
+}
+
+.learnHowToHire{
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 2px solid #14A800;
+    color: #14A800;
+}
+
+/* Section 2 */
+
+
+
+/* Section 3 */
+.section3{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.section3Content{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.sec3heads h1{
+    font-size: 40px;
+}
+
+.sec3heads p{
+    font-size: 15px;
+    color: #242424;
+}
+
+.sec3heads a{
+    text-decoration: underline #14A800 1px;
+    color: #14A800;
+}
+
+.sec3Cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.sec3Card{
+    width: 23%;
+    background-color: #F7FAF7;
+    border-radius: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.sec3Card:hover{
+    background-color: #E4EBE4;
+    cursor: pointer;
+}
+
+
+
+.sec3CardHead{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sec3CardRatings{
+    display: flex;
+    gap: 30px;
+}
+
+.sec3CardRatings i{
+    color: #14A800;
+}
+
+/* Section 3 */
+
+.gradientSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 570px;
+}
+
+.gradientSectionContent{
+    background: linear-gradient(100deg,#aceace,#48e1cf,#cf9dbb,#70e4ce,#88e4c5);
+    width: 95%;
+    padding: 20px 20px 30px 30px;
+    height: 400px;
+
+}
+
+
+.gradientSectionContent h1{
+    color: #13544E;
+    font-size: 55px;
+}
+
+.gradientSectionContent p{
+    color: #13544E;
+    font-size: 20px;
+}
+
+.betabtn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gradBtn{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.betabtnContent{
+    padding: 8px;
+    background-color: #13544E;
+    border-radius: 50px;
+}
+
+.betabtnContent p{
+    font-size: 11px;
+    color: white;
+}
+
+.gradSecChatImg{
+}
+
+.gradSecChatImg img{
+    height: 150px;
+    margin: 50px 0;
+}
+
+.gradFloatContent{
+    width: 70%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+    border-radius: 20px;
+    padding: 30px 30px 5px 30px;
+    box-shadow: 0px 0px 20px rgb(168, 168, 168) ;
+}
+
+.gradFloatContent p{
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.gradSecBtn{
+    padding: 15px;
+border: 2px solid #E4EBE4;
+display: inline-block;
+border-radius: 10px;
+color: #14A800;
+}
+
+.gradFloatContentBottom{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gradFloatContentBottomtext p{
+    font-size: 12px;
+}
+
+.gradFloatContentBottomtext a{
+    color: #14A800;
+    text-decoration: underline 1px #14A800;
+}
+
+
+
+
+/* THIS IS HOW GOOD
+COMPANIES FIND GOOD COMPANY */
+
+.enterpriseSuite{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.enterpriseSuiteContent{
+    width: 95%;
+    background-color: #9AAA97;
+    display: flex;
+    justify-content: space-between;
+}
+
+.enterpriseSuiteText{
+    flex: 2;
+    background-color: #13544E;
+    padding: 30px;
+    color: white;
+}
+
+.enterpriseSuiteImg{
+    flex: 1.5;
+    background-color: bisque;
+}
+
+.enterpriseSuiteTextPoints{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.enterpriseSuiteText h3{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.enterpriseSuiteText h1{
+    font-size: 55px;
+    padding-bottom: 30px;
+}
+
+.enterpriseSuiteText span{
+    color: #91E6B3;
+}
+
+.enterpriseSuiteTextPointsText p{
+    
+    padding-bottom: 15px;
+}
+
+.enterpriseSuiteTextPointsIcon{
+    margin-right: 15px;
+    color: #91E6B3 ;
+}
+
+.enterpriseSuiteTextPointsText p{
+
+}
+
+.learnMoreBtn{
+    padding: 10px;
+    background-color: white;
+    color: #13544E;
+    width: 120px;
+    border-radius: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enterpriseSuiteImg{
+    background-image: url(./images/wheel\ chair\ big.webp);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+/* THIS IS HOW GOOD
+COMPANIES FIND GOOD COMPANY */
+
+/* for clients */
+
+.forClient{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.forClientContentTopText{
+    color: white;
+    font-size: 20px;
+}
+
+.forClientContentBottomText{
+    margin-top: 100px;
+}
+
+.forClientContentBottomPara{
+    color: white;
+}
+
+.forClientContentBottomPara h1{
+    font-size: 65px;
+}
+
+.forClientContentBottomPara p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.forClientContent{
+    width: 95%;
+    background-image: url(./images/for\ clients.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+
+    
+    border-radius: 10px;
+}
+
+.greenCardsDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.forClientContentBottomCards{
+    padding: 20px;
+    background-color: #14A800;
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.forClientContentBottomCards:hover{
+    cursor: pointer;
+}
+
+
+.forClientContentBottomCard{
+}
+
+.forClientContentBottomCardHeading{
+    font-weight: bold;
+    color: white;
+}
+
+.forClientContentBottomCardText{
+    padding-top: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* lady Section */
+
+.section_client{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.client_content{
+    width: 95%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.client_left{
+    width: 65%;
+    background-color: #e4ebe4;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 40px;
+}
+
+.client_left img{
+    width: 17px;
+    height: 17px;
+}
+.client_left h2{
+    font-size: 55px;
+    padding-bottom: 30px;
+    padding-top: 60px;    
+}
+.client_left h3{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    padding-top: 10px;
+        
+}
+.client_left p{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 27px;
+}
+.middle_img img{
+    position: absolute;
+    right: 280px;
+    width: 330px;
+}
+.client_right{
+    width: 35%;
+    background-color: #14a800;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 40px;
+    position: relative;
+}
+.client_right_outer{
+    height : 100%;
+}
+
+.client_right_text{
+     position: relative;
+     top: 46%;
+}
+
+.client_right h3{
+    font-size: 35px;
+    padding-top: 10px;
+    color: white;
+}
+.client_right p{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.icon4{
+    width: 20px;
+    height: 20px;
+    
+}
+
+/* talent */
+.section_talent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.talent_content {
+    width: 95%;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.talent_left {
+    width: 50%;
+    overflow: hidden;
+    border-radius: 20px 0 0 20px;
+    text-align: center;
+}
+
+.talent_left img {
+    max-width: 100%; 
+}
+
+.talent_right {
+    width: 50%;
+    background-color: #1f57c3;
+    padding: 20px;
+    overflow: hidden;
+}
+.talent_right h3{
+    font-size: 25px;
+    padding-top: 30px;
+    color: white;
+    font-weight: lighter;
+}
+.talent_right h2 {
+    font-size: 55px;
+    padding-top: 30px;
+    color: white;
+}
+.talent_right_para1{
+    font-size: 17px;
+    padding-top: 30px;
+    color: white;
+}
+.talent_right_para2{
+    border-top: 1px solid white;
+    padding-top: 10px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.talent_right_para2 p{
+    font-size: 17px;
+    color: white;
+}
+.talent_btn{
+        padding: 10px;
+        background-color: white;
+        color: #13544E;
+        width: 220px;
+        border-radius: 50px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #1f57c3;
+}
+
+/* Lady section */
+
+/* trusted by leading brands */
+
+
+.sec7{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sec7cont{
+    width: 95%;
+}
+
+.sec7cont h1{
+    font-size: 65px;
+    color: #001e00;
+    
+    margin: 20px 0px;
+}
+
+.sec7boxesContainer{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.sec7box{
+    padding: 30px;
+    background-color: #13544E;
+    width: 45%;
+    border-radius: 10px;
+}
+
+.companylogo{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.companycomment h3{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.companycomment p{
+    font-size: 17px;
+    font-weight: bold;
+    color: #D5E0D5;
+    margin-bottom: 60px;
+}
+
+.sec7lower p{
+    font-size: 17px;
+    font-weight: bold;
+    color: #D5E0D5; 
+    margin-bottom: 15px;
+}
+
+.sec7lowerbox{
+    border-top: 1px solid white;
+    display: flex;
+    padding-top: 15px;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.sec7lowerbox h3{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+
+/* trusted by leading brands */
+
+
+
+
+
+
+
+
+/* footer  */
+
+.footer {
+    background-color: #001e00;
+    width: 95%;
+    margin: 50px auto;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+.footer .footList {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    line-height: 36px;
+  }
+
+ .footer .footList .list {
+    display: flex;
+    flex-direction: column;
+ } 
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  .footer p {
+    margin: 5px 0;
+  }
+
+
+  /* footer */
+/* for clients */
+
+/* Main */
+
+
+/* Media Qurey */
+
+@media (width < 800px){
+
+    .smallNavBar{
+        display: flex;
+    }
+
+    .navbar1, .navbar2{
+        display: none;
+    }
+
+    .section1div{
+        flex-wrap: wrap;
+    }
+
+    .section1Content{
+        width: 100%;
+    }
+
+    .section1Img{
+        width: 100%;
+    }
+
+    .section2Content{
+        flex-wrap: wrap;
+    }
+
+    .gif{
+        width: 100%;
+    }
+
+    .section2text{
+        width: 100%;
+    }
+
+    .chatimg{
+        display: none;
+    }
+
+    .section1Img{
+        display: none;
+    }
+
+
+
+    .sec3Card{
+        height: auto;
+
+    }
+
+    .sec3Cards{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .sec3Card{
+        width: 100%;
+    }
+
+    .gradSecChatImg{
+        display: none;
+    }
+
+    .gradientSection{
+        height: 750px;
+    }
+
+    .gradientSectionContent h1{
+        font-size: 40px;
+    }
+
+    .enterpriseSuiteContent{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .enterpriseSuiteText{
+        flex: none;
+    }
+
+    .enterpriseSuiteImg{
+        flex: none;
+        height: 250px;
+        background-image: url(./images/wheel\ chair\ small.webp);
+    }
+
+    .greenCardsDiv{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .forClientContentBottomCards{
+        width: 100%
+    }
+
+    .sec7boxesContainer{
+        flex-wrap: wrap;
+    }
+
+    .sec7box{
+        width: 100%;
+    }
+}
+
+/* Media Qurey */

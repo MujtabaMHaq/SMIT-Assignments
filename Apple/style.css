@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+* a{
+    text-decoration: none;
+}
+
+/* body{
+    background-image: url('./images/heroes/hero 1.jpg');
+    background-repeat: no-repeat;
+} */
+/* 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.nav{
+    position: relative;
+    z-index: 2;
+
+    background-color: rgba(1, 1, 1, 0.7);
+    box-sizing: border-box;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    backdrop-filter: blur(15px);
+}
+
+.appleIcon{
+    height: 15px;
+    display: inline-block;
+    margin: 15px;
+    padding-bottom: 3px;
+}
+
+.searchIcon{
+    height: 15px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.shopIcon{
+    height: 15px;
+    display: inline-block;
+    margin: 15px;
+}
+
+/* is se list items image k sath a rhy hyn */
+.nav ul{
+    display: inline-block;
+}
+
+.nav li{
+    display: inline-block;
+    margin: 15px;
+    font-size: smaller;
+    font-weight: 100;
+    color: #DAD9D9;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #DAD9D9;
+}
+
+.nav a:hover{
+    color:#ffffff ;
+}
+
+/* Hero ! ------------------------------------------------------------------------------------------------------ */
+
+.hero1{
+    height: 615px;
+    width: 100%;
+    background-color: #F5F5F7;
+}
+
+.hero1image{
+
+    height: 615px;
+    background-image: url('./Images/Heroes/hero1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.hero1content{
+    padding-top: 400px;
+}
+
+/* Hero 2 ------------------------------------------------------------------------------------------------------ */
+
+.hero2{
+    height: 580px;
+    width: 100%;
+    background-color: black;
+}
+
+.hero2image{
+
+    height: 580px;
+    background-image: url('./Images/Heroes/hero2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.hero2content{
+    padding-top: 30px;
+}
+
+.hero2details{
+    color: white;
+    font-size: 27px;
+}
+
+/* Hero 3 ------------------------------------------------------------------------------------------------------ */
+
+.hero3{
+    height: 580px;
+    width: 100%;
+    background-color: black;
+}
+
+.hero3image{
+
+    height: 580px;
+    background-image: url('./Images/Heroes/hero3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.hero3content{
+    padding-top: 30px;
+}
+
+.hero3details{
+    color: #1D1D1F;
+    font-size: 27px;
+}
+
+/* Promo ------------------------------------------------------------------------------------------------------- */
+
+.promo {
+    margin: 0 auto; /* center main lagye ga div ko */
+    width: AUTO;
+    display: flex;
+    justify-content: space-evenly; /* Jaga baraabar rakhy ga */
+}
+
+.promo1 {
+    height: 580px;
+    width: 650px;
+    background-color: lightcoral;
+}
+.promo1image{
+    height: 580px;
+    background-image: url(./Images/Promos/promo1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.promo1content{
+    padding-top: 70px;
+}
+
+.promo2 {
+    height: 580px;
+    width: 650px;
+    background-color: lightcoral;
+}
+
+.promo2image{
+    height: 580px;
+    background-image: url(./Images/Promos/promo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.promo2content{
+    padding-top: 70px;
+}
+
+.promo3 {
+    height: 580px;
+    width: 650px;
+    background-color: lightcoral;
+}
+.promo3image{
+    height: 580px;
+    background-image: url(./Images/Promos/promo3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.promo3content{
+    padding-top: 70px;
+}
+
+.promo4 {
+    height: 580px;
+    width: 650px;
+    background-color: lightcoral;
+}
+
+.promo4image{
+    height: 580px;
+    background-image: url(./Images/Promos/promo4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.promo4content{
+    padding-top: 70px;
+}
+
+.promo5 {
+    height: 580px;
+    width: 650px;
+    background-color: lightcoral;
+}
+.promo5image{
+    height: 580px;
+    background-image: url(./Images/Promos/promo5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.promo5content{
+    padding-top: 70px;
+}
+
+.promo6 {
+    height: 580px;
+    width: 650px;
+    background-color: lightcoral;
+}
+
+.promo6image{
+    height: 580px;
+    background-image: url(./Images/Promos/promo6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.promo6content{
+    padding-top: 70px;
+}
+
+/* Promo ---------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* Movie ----------------------------------------------------------------------------------------------------------- */
+
+.movie{
+    width: 100%;
+    height: 550px;
+    background-color: #F5F5F7;
+}
+
+.moviehero{
+    background-image: url('./Images/Heroes/movie.jpg');
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    width: 72%;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.movieherocontent{
+    width: 100%;
+    height:550px ;
+    padding-top: 460px;
+    padding-left: 60px;
+}
+
+.btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 100px;
+    font-weight: bold;
+    border: white solid 1px;
+    background-color: white;
+    color: black;
+}
+
+.btn:hover{
+    background-color: rgb(228, 228, 228);
+    color: black;
+    cursor: pointer;
+}
+
+.movieslider{
+    width:100px;
+    height: 0px;
+    border: black dotted 10px;
+}
+
+/* Dots ------------------------------------------------------------------------------------------------------------ */
+
+.sliderdots{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.dot{
+    width: 8px;
+    height: 8px;
+    background-color: #757575;
+    border-radius: 50px;
+    margin: 0 7px;
+}
+
+
+/* footer ---------------------------------------------------------------------------------------------------------- */
+
+.footer{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background-color: #F5F5F7;
+}
+
+.footerpara{
+    padding-top: 50px;
+    width: 72%;
+    height: auto;
+    margin: 0 auto;
+    font-size: small;
+    color: #b1b1b1;
+}
+
+.footerlinks{
+    width: 100%;
+    height: auto;   
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+}
+
+.footerlinkcolcontainer{
+    box-sizing: border-box;
+    padding-top: 20px;
+    width: 76%;
+    height: auto;   
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerlinkcol{
+    width: 15%;
+    height: auto;
+    
+    margin: 0 auto;
+}
+
+.footerlinkcol ul{
+    list-style-type: none;
+}
+
+.footerlinkcol li{
+    margin-top: 10px;
+    font-size: small;
+    color: #777777 ;
+}
+
+.footerlinks a{
+    color: #777777 ;
+}
+
+.footerlinks a:hover{
+    text-decoration: underline;
+}
+
+.footerend{
+    width:100%;
+    height:auto;
+    background-color: #F5F5F7;
+}
+
+.footerendcontent{
+    margin: 0 auto;
+    width: 72%;
+    height: auto;
+    background-color: #F5F5F7;
+
+}
+
+.footerendcontent p a{
+    color: blue;
+    font-size: small;
+    text-decoration: none;
+}
+
+.footerendcontent p a:hover{
+    text-decoration: underline;
+}
+
+.footerendcontent p{
+    color: #9e9e9e;
+    font-size: small;
+}
+
+
+
+
+
+
+
+
+.hero1catchline{
+    font-size: 30px;
+    color: #1D1D1F;
+}
+
+.hero1details{
+    font-size: 20px;
+    color: #6F6F74;
+}
+
+.learnmore{
+    text-decoration: none;
+
+    color: blue;
+    font-size: 20px;
+}
+
+.learnmore a{
+    color: #0066CC;
+}
+
+.learnmore a:hover{
+    text-decoration: underline;
+}
