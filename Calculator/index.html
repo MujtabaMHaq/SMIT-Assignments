@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>My Calculator</title>
+</head>
+
+<body>
+    <div class="Main">
+
+    <h1><a href="https://github.com/MujtabaMHaq">@MujtabaMHaq</a></h1>
+    <div class="cal_Main">
+
+        <input type="type" name="" disabled id="inputField">
+        <div class="cal_btn">
+            <div>
+                <button onclick="inputData('+')" class="plusBtn">+</button>
+                <button onclick="inputData('*')">*</button>
+                <button onclick="inputData('/')">/</button>
+                <button onclick="inputData('-')" class="minusBtn">-</button>
+            </div>
+            <div>
+                <button onclick="inputData(7)">7</button>
+                <button onclick="inputData(8)">8</button>
+                <button onclick="inputData(9)">9</button>
+                <button onclick="deleteOne()" class="CE">CE</button>
+            </div>
+            <div>
+                <button onclick="inputData(4)">4</button>
+                <button onclick="inputData(5)">5</button>
+                <button onclick="inputData(6)">6</button>
+                <button onclick="allclear()" class="AC">AC</button>
+
+            </div>
+   
+
+            <div class="wrapper">
+                <div class="left">
+                    <div class="up">
+                        <button onclick="inputData(1)">1</button>
+                        <button onclick="inputData(2)">2</button>
+                        <button onclick="inputData(3)">3</button>
+                    </div>
+                    <div class="down">
+                        <button onclick="inputData('0')" class="zeroBtn">0</button>
+                        <button onclick="inputData('00')">00</button>
+                        <button onclick="inputData('.')">.</button>
+                    </div>
+                </div>
+                <div class="right">
+                    <button onclick="result()" class="equal">=</button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    </div>
+</body>
+
+<script src="app.js"></script>
+
+</html>
