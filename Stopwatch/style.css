@@ -1,12 +1,13 @@
 * { 
 	padding: 0; 
-	margin: 0; 
-	font-family: verdana; 
+	margin: 0 auto; 
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    box-sizing: border-box;
 }
-/* @font-face {
+@font-face {
     font-family: digital-7;
     src: url(./Fonts/digital-7\ \(mono\).ttf);
-}  */
+} 
 
 .container { 
 	display: flex; 
@@ -15,25 +16,27 @@
 	align-items: center; 
 	width: 100%; 
 	height: 100vh; 
-	background-color: #161616; 
+	background-color: #1a1625; 
+    padding: 10px;
 } 
 
 h1 { 
-	color: #76ABAE; 
+	color: #5e43f3; 
 	text-align: center; 
-    font-size: 60px;
+    font-size: 80px;
+    padding-bottom: 25px;
 } 
 
 .digit { 
-    /* font-family: digital-7; */
+    font-family: digital-7;
 	padding: 10px 0px;
     font-size: 150px; 
-	color: #fff; 
+	color: #ba9ffb; 
 } 
 
 .txt { 
 	font-size: 30px; 
-	color: #fffcd6; 
+	color: #a688fa; 
 } 
 
 #buttons { 
@@ -56,15 +59,15 @@ h1 {
 } 
 
 #start { 
-	background-color: #4E9F3D; 
+	background-color: #4caf50; 
 } 
 
 #stop { 
-	background-color: #3282B8; 
+	background-color: #2196f3; 
 } 
 
 #reset { 
-	background-color: #D21312; 
+	background-color: #eb0e0e; 
 }
 
 @media screen {
