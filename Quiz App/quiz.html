@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onload="startquiz() , Startcounter()">
+    <div class="main"  id="gaib" >
+
+    <div class="main_container" >
+
+        <!-- Header -->
+        <div class="main_head">
+            <div>
+                <span>Name : </span>
+                <span id="fulName">Mujtaba Mansoor</span>
+                <br />
+                <span>Email : Mujtaba317364@gmail.com</span>
+                <span id="FulEmail"></span>
+            </div>
+            <div>
+                <span>Time : </span>
+                <span id="counter">60</span>
+            </div>
+
+
+        </div>
+        <hr />
+        <!-- Body -->
+        <div class="main_body">
+            <div id="Questions">
+
+            </div>
+            <div >
+                <ol id="option">
+                    
+
+
+                </ol>
+
+            </div>
+
+        </div>
+        <br />
+        <hr />
+        <!-- Footer -->
+        <div class="main_Footer">
+            <div>
+                <span  id="nowCount">1</span> / <span id="totalCount">7</span>
+            </div>
+            <button onclick="Nxt()" disabled id="next" class="Net">Next</button>
+
+        </div>
+
+    </div>
+</div>
+
+
+<div id="result" class="hid" class="main_result">
+    <div class="container_result">
+        <div >
+            <img src="./images/fail.jpg" id="resultImg" class="resultmg" alt="">
+            <span id="showPassFail" class="result_text" >Pass</span>
+        </div>
+        <div class="percentage" > <span id="percentage" class="percentage">0</span>%</div>
+        <div><span id="showCorrectAns" class="all_result">0</span>/
+             <span id="totalCountResult" class="all_result">0</span>
+        </div>
+
+
+    <span id="showCorrectAns" class="all_result">0</span>/
+    <span id="showwrongAns" class="all_result">0</span>
+    <br />
+    
+    </div>  
+
+</div>
+
+
+    
+</body>
+<script src="quiz.js"></script>
+</html>
