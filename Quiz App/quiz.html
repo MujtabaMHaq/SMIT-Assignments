@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Mujtaba Mansoor Quiz App</title>
 </head>
 <body onload="startquiz() , Startcounter()">
     <div class="main"  id="gaib" >
@@ -15,10 +15,10 @@
         <div class="main_head">
             <div>
                 <span>Name : </span>
-                <span id="fulName">Mujtaba Mansoor</span>
+                <span id="fulName"></span>
                 <br />
-                <span>Email : Mujtaba317364@gmail.com</span>
-                <span id="FulEmail"></span>
+                <span>Email : </span>
+                <span id="FulEmail">mujtaba317364@gmail.com</span>
             </div>
             <div>
                 <span>Time : </span>
@@ -58,21 +58,18 @@
 </div>
 
 
-<div id="result" class="hid" class="main_result">
+<div id="result" class="hid-startquiz" >
     <div class="container_result">
         <div >
-            <img src="./images/fail.jpg" id="resultImg" class="resultmg" alt="">
+            <img src="./images/fail.png" id="resultImg" class="resultmg" alt="">
             <span id="showPassFail" class="result_text" >Pass</span>
         </div>
         <div class="percentage" > <span id="percentage" class="percentage">0</span>%</div>
-        <div><span id="showCorrectAns" class="all_result">0</span>/
+        <div class="all_result">Total Correct Answer : <span id="showCorrectAns" class="all_result">0</span>/
              <span id="totalCountResult" class="all_result">0</span>
         </div>
 
 
-    <span id="showCorrectAns" class="all_result">0</span>/
-    <span id="showwrongAns" class="all_result">0</span>
-    <br />
     
     </div>  
 

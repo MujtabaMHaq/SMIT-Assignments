@@ -28,30 +28,31 @@ var ques = [
         id: 3,
         question: "Which type of JavaScript Languages is",
         options: {
-            a: "Object-Oriented ",
+            a: "Object-Oriented",
             b: "Object-Base",
             c: "Assembly Languages",
             d: "high Level",
 
         },
         answer: "Object-Base"
-    }
-    ,
-    {
-        id: 4,
-        question: "who is the present president of pakistan",
-        options: {
-            a: "Arif Alvi",
-            b: "Imran Khan",
-            c: "Nawaz Sharif",
-            d: "Zardari",
-
-        },
-        answer: "Arif Alvi"
     },
     {
+        id: 4,
+        question: "Which of the following function of Array object returns true if at least one element in this array satisfies the provided testing function",
+        options: {
+            a: "reverse()",
+            b: "shift()",
+            c: "slice()",
+            d: "some()",
+
+        },
+        answer: "some()"
+    }
+    
+    ,
+    {
         id: 5,
-        question: "Inside which HTML element do we put the JavaScript?",
+        question: "Inside which HTML element do we put the JavaScript",
         options: {
             a: "js",
             b: "javascript",
@@ -64,7 +65,7 @@ var ques = [
     ,
     {
         id: 6,
-        question: "Which of the following property is used to control the repetition of an image in the background?",
+        question: "Which of the following property is used to control the repetition of an image in the background",
         options: {
             a: "background-color",
             b: "background-image",
@@ -73,6 +74,55 @@ var ques = [
 
         },
         answer: "background-repeat"
+    },
+    
+    {
+        id: 7,
+        question: "How can you add a comment in JavaScript",
+        options: {
+            a: "'This is a comment",
+            b: "//This is a comment",
+            c: "&lt!--This is a comment--&gt",
+            d: "/*This is a comment*/",
+        },
+        answer: "//This is a comment"
+    }
+    ,
+    {
+        id: 8,
+        question: "Which method is used to create a new array from an existing array in JavaScript",
+        options: {
+            a: "Array.create()",
+            b: "Array.slice()",
+            c: "Array.splice()",
+            d: "Array.new()",
+        },
+        answer: "Array.slice()"
+    }
+    ,
+    
+    {
+        id: 9,
+        question: "Which event occurs when the user clicks on an HTML element",
+        options: {
+            a: "onmouseover",
+            b: "onchange",
+            c: "onclick",
+            d: "onmouseclick",
+        },
+        answer: "onclick"
+    }
+    ,
+    {
+        id: 10,
+        question: "How do you declare a JavaScript variable",
+        options: {
+            a: "variable carName;",
+            b: "var carName;",
+            c: "v carName;",
+            d: "declare carName;",
+        },
+        answer: "var carName;"
     }
     
 ]
@@ -106,7 +156,7 @@ var counter = document.getElementById("counter")
 function Startcounter(){
 
     counter.innerHTML--
-    if(nowCount.innerHTML > totalCount.innerHTML){
+    if(nowCount.innerHTML > totalCount.innerHTML-1){
         clearInterval(bas)
         counter.innerHTML = "00"
     }
@@ -135,9 +185,7 @@ function Startcounter(){
 
 
 function startquiz(){
-
-
-
+    
 
    
     Questions.innerHTML = ques[indexNo].question + "?"
@@ -187,7 +235,6 @@ function Select(elm){
 }
 
 var showCorrectAns = document.getElementById("showCorrectAns")
-var showwrongAns = document.getElementById("showwrongAns")
 var gaib = document.getElementById("gaib")
 var result = document.getElementById("result")
 var percentage = document.getElementById("percentage")
@@ -198,12 +245,18 @@ var totalCountResult = document.getElementById("totalCountResult")
 
 function Nxt(){
     if(indexNo < ques.length-1){
+
         counter.innerHTML = "59"
+        
+
+        
         indexNo++
         nowCount.innerHTML++
         startquiz()
         next.setAttribute('disabled', 'true')
         option.className = "touch"
+
+        
         
         
 
@@ -212,11 +265,11 @@ function Nxt(){
         gaib.remove();
         
         showCorrectAns.innerHTML = rightcounter
-        showwrongAns.innerHTML = wrongcounter
         totalCountResult.innerHTML = totalCount.innerHTML
         var percent = rightcounter/ques.length*100
         percentage.innerHTML = Math.floor(percent)
         result.className = "show"
+        result.className = "main_result"
         if(percent < 60){
             showPassFail.innerHTML = localStorage.getItem("fname") + ", You are Fail"
 
@@ -225,7 +278,7 @@ function Nxt(){
         }
         else if(percent > 60 && percent <= 89){
             showPassFail.innerHTML = localStorage.getItem("fname") + ", You are Pass" 
-            resultImg.setAttribute("src", "images/pass.jpg");
+            resultImg.setAttribute("src", "images/pass.png");
 
 
         }

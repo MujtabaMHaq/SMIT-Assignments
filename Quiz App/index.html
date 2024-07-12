@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Mujtaba Mansoor Quiz App</title>
 </head>
 <body>
-    <div class="main" >
-        <fieldset class="container" id="personalContainer">
+    <div class="main" id="main-details">
+        <div class="details">
             <h1>Quiz Application</h1>
-                <div class="ctn">
+            <br>
+            <br>
+
+                <div  class="ctn">
                     <label for="fname">First Name : </label>
-                    <input type="text" name="fname" id="fname" pattern="^[a-zA-Z0-9]{5,10}$" required>
+                    <input type="text" name="fname" id="fname">
                 </div>
                 <div class="ctn">
                     <label for="lname">Last Name : </label>
@@ -22,14 +25,15 @@
                     <label for="email">Email Address :</label>
                 <input type="text" name="email" id="email"> 
                 </div>
-                <button onclick="Submit()">Submit</button>
+                <div class="submit-box">
+                    <button onclick="Submit()" class="submit-btn">Submit</button>
+                </div>
 
-
-        </fieldset>
+        </div>
     </div>
 
-    <div id="strtQuiz" class="hid">
-        <a href="quiz.html">Start Quiz!</a>
+    <div id="strtQuiz" class="hid-startquiz">
+        <h1><a href="quiz.html">Start Quiz!</a></h1>
     </div>
     
 </body>

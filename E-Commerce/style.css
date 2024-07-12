@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+    /* background-color: rgb(241, 241, 241); */
+}
+
+body{
+    background-color:rgb(239, 239, 239); 
+}
+
+.nav{
+    /* border: 2px solid black; */
+    color: #fff;
+    width: 100%;
+    height: 60px;
+    background-color: #3d3d3d;
+    
+}
+
+.nav-cont{
+    color: #fff;
+    height: 60px;
+    background-color: #3d3d3d;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-area{
+    color: #fff;
+    background-color: #3d3d3d;
+    /* border: 1px solid red; */
+    fill: #fff;
+    height: auto;
+    width: 23%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-links-area{
+    color: #fff;
+    background-color: #3d3d3d;
+    /* border: 1px solid red; */
+    height: auto;
+    width: 48%;
+
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.nav-item{
+    padding: 10px 15px;
+}
+
+.nav-item:hover{
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav-item-selected{
+    border-radius: 50px;
+    background-color: #ff9800;
+    font-weight: bold;
+}
+
+.cart-area{
+    color: #fff;
+    fill: #fff;
+    background-color: #3d3d3d;
+    /* border: 1px solid red; */
+    height: auto;
+    width: 23%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cart-area img{
+    width: 25px;
+}
+
+.body-cont{
+    /* border: 2px solid black; */
+
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.body-head{
+    text-align: center;
+    padding: 20px;
+}
+.banner {
+    background-image: url(/images/banner-image.jpg);
+    /* background-image: url(/images/banner-image.jpg); Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+}
+
+.banner-content {
+    background-color: rgba(17, 17, 17, 0.264);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.banner-button {
+    padding: 10px 20px;
+    background-color: #ff9800;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.banner-button:hover {
+    background-color: #e68a00;
+}
+.card-cont{
+
+    /* border: 2px solid red; */
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    /* justify-content: center; */
+    gap: 2%;
+
+    flex-wrap: wrap;
+
+    margin-bottom: 50px;
+}
+
+.card{
+    width: 23%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 7px rgba(124, 124, 124, 0.25);
+    margin-bottom: 25px;
+    /* border: 1px solid black; */
+}
+
+.card:hover{
+    scale: 1.015;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.card-thumb{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-thumb img{
+    /* width: 100%; */
+    /* height: fit-content; */
+    height: 100%;
+    /* width: 100%; */
+    margin: 0 auto;
+    border-radius: 10px;
+    /* contain: size; */
+}
+
+.card-head{
+    padding: 10px 0 10px 0;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card-desc{
+    padding: 10px 0 10px 0;
+
+}
+
+.card-buy{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.card-btn{
+    color: #fff;
+    width: 48%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+.card-btn:hover{
+    color: #333;
+    background-color: #ff9800;
+    /* background-color: red; */
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+.footer-cont{
+    width:100% ;
+    height: auto;
+    background-color: #fff;
+    /* position: sticky;
+    bottom: 0; */
+}
+
+.footer{
+    width: 95%;
+    margin: 0 auto;
+    height: auto;
+    padding: 20px;
+}
+
+.nav-short{
+    display: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: left;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ff9800;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter-form button:hover {
+    background-color: #e68a00;
+}
+
+.footer-bottom {
+    border-top: 1px solid #555;
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}
+
+.footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-bottom a:hover {
+    color: #ff9800;
+}
+
+
+
+@media ( width < 930px ){
+    .card{
+        width: 30%; /* card width */
+    }
+
+    .card-cont{
+        gap: 5%;
+    }
+}
+
+@media ( width < 830px ){
+    .card{
+        width: 48%;
+    }
+
+    .card-cont{
+        gap: 4%;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .nav-short{
+        display: block;
+        width: 100%;
+        height: 60px;
+        background-color: #333;
+    }
+
+    .nav-links-area{
+        display: none;
+    }
+
+    .logo-area{
+        width: 50%;
+    }
+
+    .cart-area{
+        width: 50%;
+    }
+}
+
+@media ( width < 530px ){
+    .card{
+        width: 100%;
+    }
+}
